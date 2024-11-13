@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #F1F1F3;
+    padding: 20px 5vw;
+}
+.benefits {
+
+}
+.benefits .container {
+    display: grid ;
+    grid-template-columns: repeat(3, .15fr);
+    width: 100%;
+    gap: 10px;
+}
+.course-grid .box {
+    width: 480px;
+}
+.course-grid .box img {
+    border-radius: 10px;
+}
+.testimonial .grid-container .box {
+    width: 480px;
+
+}
+@media screen and (max-width: 700px) {
+    .nav-container .links{
+        display: none;
+    }
+    .nav-container ul {
+        padding: 10px;
+    }
+    .home-container
+    {
+        padding: 50px 8px;
+    }
+    .home-container .hero .inner div.bg-white {
+        padding: 10px 15px;
+        width: 100%;
+    }
+    .home-container .hero .inner h1{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .home-container .hero .inner div.absolute {
+        bottom: 92%;
+        left: -20px;
+    }
+    .home-container .hero .inner div.absolute img {
+        width: 30px;
+    }
+    .home-container .sponsors{
+        padding: 10px 10px;
+        width: auto;
+    }
+    .home-container .sponsors :nth-child(4){
+        display: none;
+    }
+    .home-container .sponsors :nth-child(5){
+        display: none;
+    }
+    .home-container .sponsors :nth-child(2){
+        display: none;
+    }
+    .benefits .top-txt {
+        margin-left: 10px;
+    }
+    .benefits .container  {
+        grid-template-columns: repeat(1, .15fr);
+        place-content: center;
+        width: 100%;
+    }
+    .benefits .container .box {
+     
+    }
+    .course-grid {
+        display: grid ;
+        place-content: center;
+    }
+    .course-grid .box{
+        width: auto;
+    }
+    .testimonial .grid-container .box {
+        width: auto;
+    }
+}
