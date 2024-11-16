@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'orange': '#FF9500',
-        'btn-grey': '#F1F1F3'
+        'btn-grey': '#F1F1F3',
+        'light-ora': '#FFF9F0'
       }
     },
   },

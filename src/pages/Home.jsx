@@ -15,6 +15,7 @@ import course4 from "../assets/course4.png";
 import course5 from "../assets/course5.png";
 import course6 from "../assets/course6.png";
 import testImg from "../assets/testimg.png";
+import check from "../assets/icons/check.png";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Home = () => {
@@ -212,7 +213,7 @@ const Home = () => {
                 Get it Now
               </button>
             </div>
-            <div className="bg-white px-5 py-6 rounded-lg box h-auto  ">
+            <div className="bg-white lg:px-5 md:px-5 sm:px-2 py-6 rounded-lg box h-auto  ">
               <img src={course4} alt="" />
               <div className="flex items-center justify-between mt-2">
                 <div className="flex items-center gap-2">
@@ -239,7 +240,7 @@ const Home = () => {
                 Get it Now
               </button>
             </div>
-            <div className="bg-white px-5 py-6 rounded-lg box h-auto  ">
+            <div className="bg-white lg:px-5 md:px-5 sm:px-2 py-6 rounded-lg box h-auto  ">
               <img src={course5} alt="" />
               <div className="flex items-center justify-between mt-2">
                 <div className="flex items-center gap-2">
@@ -266,7 +267,7 @@ const Home = () => {
                 Get it Now
               </button>
             </div>
-            <div className="bg-white px-5 py-6 rounded-lg box h-auto  ">
+            <div className="bg-white lg:px-5 md:px-5 sm:px-2 py-6 rounded-lg box h-auto  ">
               <img src={course6} alt="" />
               <div className="flex items-center justify-between mt-2">
                 <div className="flex items-center gap-2">
@@ -291,7 +292,7 @@ const Home = () => {
                 Get it Now
               </button>
             </div>
-            <div className="bg-white px-5 py-6 rounded-lg box h-auto  ">
+            <div className="bg-white lg:px-5 md:px-5 sm:px-2 py-6 rounded-lg box h-auto  ">
               <img src={course1} alt="" />
               <div className="flex items-center justify-between mt-2">
                 <div className="flex items-center gap-2">
@@ -326,7 +327,7 @@ const Home = () => {
               Necessitatibus, accusantium? Necessitatibus, accusantium?
             </p>
           </div>
-          <div className="grid-container grid lg:grid-col-2 md:grid-cols-2 sm:grid-cols-1 gap-2">
+          <div className="grid-container grid lg:grid-col-2 md:grid-cols-2 sm:grid-cols-1 gap-5">
             <div className="bg-white p-7 rounded-md box ">
               <div>
                 <p className="text-sm">
@@ -355,7 +356,7 @@ const Home = () => {
                 <h3 className="font-bold">Sarah L</h3>
               </div>
             </div>
-      
+
             <div className="bg-white p-7 rounded-md box ">
               <div>
                 <p className="text-sm">
@@ -383,6 +384,97 @@ const Home = () => {
                 <img src={testImg} alt="" />
                 <h3 className="font-bold">Sarah L</h3>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="pricing">
+          <div className="-ml-2 mb-10 top-txt ">
+            <h3 className="font-bold text-2xl">Our Pricing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, accusantium? Necessitatibus, accusantium?
+            </p>
+          </div>
+          <div className="bg-white lg:p-6 md:p-6 sm:p-2 rounded-md flex gap-5 container ">
+            <div className="bg-slate-100 p-5 rounded-md">
+              <div className="font-semibold px-3 py-1 border border-input rounded-md text-center bg-light-ora w-96">
+                Free plan
+              </div>
+              <div className="text-center mt-6 ">
+                <h1 className="font-bold text-6xl">
+                  $0<span className="text-sm font-normal">/month</span>
+                </h1>
+              </div>
+              <div className="bg-white p-6 rounded-md mt-3 features">
+                <h3 className="text-center font-semibold ">
+                  Availabe features
+                </h3>
+                <ul>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Access to selected free courses</h3>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Limited course materials and resources.</h3>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Basic community support.</h3>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>No certification upon completion.</h3>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Ad-supported platform.</h3>
+                  </div>
+                </ul>
+              </div>
+              <button className="text-center text-white px-3 py-3 bg-orange w-full rounded-bl-lg rounded-br-lg">
+                Get started
+              </button>
+            </div>
+            <div className="bg-slate-100 p-5 rounded-md">
+              <div className="font-semibold px-3 py-1 border border-input rounded-md text-center bg-light-ora w-96">
+                Pro plan
+              </div>
+              <div className="text-center mt-6 ">
+                <h1 className="font-bold text-6xl">
+                  $79<span className="text-sm font-normal">/month</span>
+                </h1>
+              </div>
+              <div className="bg-white p-6 rounded-md mt-3 features">
+                <h3 className="text-center font-semibold ">
+                  Availabe features
+                </h3>
+                <ul>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Unlimited access to all courses.</h3>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Unlimited course materials and resources.</h3>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Priority support from instructors.</h3>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Course completion certificates.</h3>
+                  </div>
+                  <div className="flex items-center gap-2 px-3 py-2 w-full border border-input mt-3 rounded-md">
+                    <img src={check} alt="" />
+                    <h3>Ad-free experience..</h3>
+                  </div>
+                </ul>
+              </div>
+              <button className="text-center text-white px-3 py-3 bg-orange w-full rounded-bl-lg rounded-br-lg">
+                Get started
+              </button>
             </div>
           </div>
         </div>
