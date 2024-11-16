@@ -37,7 +37,7 @@ const Footer = () => {
             Somewhere in the world
           </span>
         </div>
-        <div className="flex justify-around gap-10">
+        <div className="flex justify-around gap-10 right">
           <ul className="flex flex-col gap-2">
             <Link className="font-bold">Home</Link>
             <Link>Benefits</Link>

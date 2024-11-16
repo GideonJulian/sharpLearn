@@ -93,34 +93,20 @@ body {
     .testimonial .grid-container .box {
         width: auto;
     }
-    .pricing .container
-    {
-        flex-direction: column;
-        padding: 0px;
-        gap: 20px;
-        width: auto;
-        background: none;
+    .pricing {
+
     }
-    .pricing  .top-txt p{
-        font-size: 14px;
-    }
-    .pricing .top-txt {
+.pricing .container {
+    flex-direction: column;
    
-    }
-    .pricing  .bg-slate-100{
-        padding: 20px;
-        width: auto;
-    }
-    .pricing .container .features {
-        padding: 5px;
-    }
-    .pricing .container .features .flex {
-        padding-left: 9px;
-    }
-    .pricing .top-txt {
-        margin-left: 15px;
-        margin-top: 15px;
-    }
+}
+.pricing .container .bg-slate-100 {
+    padding: 5px;
+}
+.pricing .container .bg-slate-100 .features {
+    padding: 25px;
+    width: auto;
+}
     .footer .container {
         flex-direction: column;
         padding: 20px;
@@ -129,5 +115,8 @@ body {
      {
         margin-left: -60%;
         margin-bottom: 10px;
+     }
+     .footer .right {
+            gap: 20px;
      }
 }
