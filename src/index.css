@@ -68,9 +68,10 @@ body {
         width: 30px;
     }
     .home-container .sponsors{
-        padding: 10px 20px;
+        padding: 10px 25px;
         width: auto;
         border: 1px solid ;
+        gap: 20px;
     }
     .home-container .sponsors img {
         width: 90px;
