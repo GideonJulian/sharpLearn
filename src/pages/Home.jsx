@@ -397,7 +397,7 @@ const Home = () => {
           </div>
           <div className="bg-white p-6 rounded-md flex gap-5 container ">
             <div className="bg-slate-100 p-5 rounded-md">
-              <div className="font-semibold px-3 py-1 border border-input rounded-md text-center bg-light-ora w-96">
+              <div className="font-semibold px-3 py-1 border border-input rounded-md text-center bg-light-ora w-full">
                 Free plan
               </div>
               <div className="text-center mt-6 ">
@@ -437,7 +437,7 @@ const Home = () => {
               </button>
             </div>
             <div className="bg-slate-100 p-5 rounded-md">
-              <div className="font-semibold px-3 py-1 border border-input rounded-md text-center bg-light-ora w-96">
+              <div className="font-semibold px-3 py-1 border border-input rounded-md text-center bg-light-ora w-full">
                 Pro plan
               </div>
               <div className="text-center mt-6 ">

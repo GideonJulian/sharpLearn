@@ -29,8 +29,17 @@ body {
     width: 480px;
 
 }
+.pricing .container {
+    width: auto;
+}
+.pricing .container .bg-slate-100 {
+    width: 400px;
+}
 .footer {
     padding: 3rem 14vw;
+}
+.top-txt {
+    margin-left: 15px;
 }
 @media screen and (max-width: 700px) {
     .nav-container .links{
@@ -98,15 +107,14 @@ body {
     }
 .pricing .container {
     flex-direction: column;
+    width: auto;
+    padding: 15px;
    
 }
 .pricing .container .bg-slate-100 {
-    padding: 5px;
+  width: auto;
 }
-.pricing .container .bg-slate-100 .features {
-    padding: 25px;
-    width: auto;
-}
+
     .footer .container {
         flex-direction: column;
         padding: 20px;
