@@ -71,6 +71,9 @@ body {
         padding: 10px 10px;
         width: auto;
     }
+    .home-container .sponsors img {
+        width: auto;
+    }
     .home-container .sponsors :nth-child(4){
         display: none;
     }
