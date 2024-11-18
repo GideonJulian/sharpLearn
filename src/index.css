@@ -68,11 +68,11 @@ body {
         width: 30px;
     }
     .home-container .sponsors{
-        padding: 10px 10px;
+        padding: 10px 20px;
         width: auto;
     }
     .home-container .sponsors img {
-        width: auto;
+        width: 90px;
     }
     .home-container .sponsors :nth-child(4){
         display: none;
