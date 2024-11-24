@@ -17,6 +17,7 @@ import course6 from "../assets/course6.png";
 import testImg from "../assets/testimg.png";
 import check from "../assets/icons/check.png";
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -42,9 +43,9 @@ const Home = () => {
             </p>
           </div>
           <div className="hero-btn flex items-center gap-2 mt-3 justify-center">
-            <button className="px-4 py-2 text-white bg-orange rounded-md">
+            <Link to={'/courses'} className="px-4 py-2 text-white bg-orange rounded-md">
               Exlpore Courses
-            </button>
+            </Link >
             <button className="bg-white px-3 py-2 rounded-md">
               View Pricing
             </button>

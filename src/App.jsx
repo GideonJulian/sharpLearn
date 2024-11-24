@@ -6,7 +6,7 @@ import Courses from "./pages/Courses";
 const App = () => {
   const route = createBrowserRouter([
     {
-      path: "",
+      path: "/",
       element: <Layout />,
       children: [
         {
