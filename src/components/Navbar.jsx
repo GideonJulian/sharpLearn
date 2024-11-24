@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link>Home</Link>
           </li>
           <li className="px-3 py-2 ">
-            <Link>Courses</Link>
+            <Link to={'courses'}>Courses</Link>
           </li>
           <li className="px-3 py-2 ">
             <Link>About us</Link>
