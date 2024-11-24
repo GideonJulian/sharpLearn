@@ -41,7 +41,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-2">
             <Link className="font-bold">Home</Link>
             <Link>Benefits</Link>
-            <Link>Our Courses</Link>
+            <Link to={'/courses'}>Our Courses</Link>
             <Link>Our Testimonials</Link>
             <Link>Our FAQ</Link>
           </ul>
